@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="*Vjs/HO!Yp^jV)oaO3N?" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="S2~2ZC,QH@_K?k,[Yz?C"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="IMiU{[8w}Zf0DNU6BsBn" disabled-reasons="MANUALLY_DISABLED"><field name="BOOL">TRUE</field></shadow><block type="logic_operation" id="Z.eFP!rh1LO!t^IddCp*"><field name="OP">AND</field><value name="A"><block type="kitronik_controller_ispressed" id="!^a@NY({4YFC90h#lsf6"><field name="button">Kitronik_Game_Controller.ControllerButtonPins.Left</field></block></value><value name="B"><block type="kitronik_controller_ispressed" id="e_GL/Pvk9h%_$:p{WAd7"><field name="button">Kitronik_Game_Controller.ControllerButtonPins.Right</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="#/Qd0vIHW~WdR/v}Nwj8"><field name="LEDS">`
+        . . # . . 
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="+rUQ9Itbm-T?k)f2{CmB"><field name="LEDS">`
+        . # # . . 
+        # . . # . 
+        # . . # . 
+        # . . # . 
+        . # # . .
+        `</field></block></statement></block></statement></block></xml>
